@@ -1,6 +1,7 @@
 # MySQLTable-From-CSV-Spark
 
 ### Get CREATE TABLE and LOAD LOCAL DATA MySQL commands from CSV file.
+Useful when csv file contains large number of columns
 
 #### Run command:
   spark-submit \<path>/get_table_csv.py \<source>
